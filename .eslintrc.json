@@ -1,0 +1,17 @@
+{
+    "env": {
+      "browser": true,
+      "es2020": true
+    },
+    "extends": ["eslint:recommended", "plugin:vue/essential", "prettier"],
+    "parserOptions": {
+      "ecmaVersion": 11,
+      "sourceType": "module"
+    },
+    "plugins": ["vue"],
+    "rules": {
+      "vue/no-v-model-argument": "off",
+      "no-console": "warn",
+      "no-undef": "off"
+    }
+  }
