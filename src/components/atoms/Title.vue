@@ -1,5 +1,5 @@
 <template>
-  <h1 class="text-h5 my-5">{{ titleText }}</h1>
+  <h1 class="title_poke my-5">{{ titleText }}</h1>
 </template>
 <script>
 export default {
@@ -11,4 +11,8 @@ export default {
   },
 };
 </script>
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.title_poke{
+  font-weight: 700;
+}
+</style>

@@ -133,6 +133,6 @@ export default {
   background-size: cover;
 }
 .img {
-  width: 20%;
+  width: 40%;
 }
 </style>

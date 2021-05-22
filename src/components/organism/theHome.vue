@@ -1,10 +1,6 @@
 <template>
   <div class="d-flex justify-center align-center flex-column">
-    <img
-      src="@/assets/img/picachu.svg"
-      alt="Imagen de picachu para el home"
-      class="img mb-5"
-    />
+    <Picachu />
     <Message
       titleText="Welcome to Pokédex"
       bodyText="The digital encyclopedia created by Professor Oak is an invaluable tool
@@ -16,11 +12,13 @@
 <script>
 import Button from '@/components/atoms/Button';
 import Message from '@/components/molecules/Message.vue';
+import Picachu from '@/components/atoms/imgPicachu'
 export default {
   name: 'theHome',
   components: {
     Button,
     Message,
+    Picachu
   },
 };
 </script>

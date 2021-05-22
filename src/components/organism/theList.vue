@@ -90,5 +90,5 @@ export default {
 .iconButton {
   width: 70%;
   padding: 0.1rem;
-}
+}     
 </style>

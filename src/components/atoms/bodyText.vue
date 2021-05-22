@@ -1,5 +1,5 @@
 <template>
-  <p class="text-body text-center contain">
+  <p class="text-body text-center contain mb-10">
     {{ bodyText }}
   </p>
 </template>
@@ -15,6 +15,6 @@ export default {
 </script>
 <style lang="scss" scoped>
 .contain {
-  max-width: 50%;
+  max-width: 70%;
 }
 </style>
