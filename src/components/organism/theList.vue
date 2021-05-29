@@ -66,7 +66,7 @@ export default {
     getSpesificPokemon() {
       const search = this.querys.toLowerCase().trim();
       if (search) {
-        const filtered = this.pokemons.filter((p) => p.name === search);
+        const filtered = this.pokemons.filter((p) => p.name.includes(search));
         this.updateList(filtered);
       } else {
         this.displayALLPokemons();
